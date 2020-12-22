@@ -89,6 +89,15 @@
         android:title="@string/ringtone_title"
         settings:keywords="@string/sound_settings" />
 
+    <!-- Phone ringtone for SIM2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="phone_ringtone2"
+        android:title="@string/ringtone_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        android:order="-115"/>
+
     <Preference
         android:fragment="com.android.settings.sound.MediaControlsSettings"
         android:key="media_controls_summary"
