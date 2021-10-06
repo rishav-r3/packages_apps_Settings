@@ -42,6 +42,14 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"
         settings:enableCopying="true" />
 
+    <!-- SELinux -->
+    <Preference
+        android:key="selinux_status"
+        android:title="@string/selinux_status"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
+
     <Preference
         android:key="os_build_number"
         android:selectable="false"
