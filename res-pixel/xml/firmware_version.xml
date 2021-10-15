@@ -52,7 +52,6 @@
 
     <Preference
         android:key="kernel_version"
-        android:selectable="false"
         android:summary="@string/summary_placeholder"
         android:title="@string/kernel_version"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"
